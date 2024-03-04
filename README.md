@@ -1,51 +1,38 @@
-MechanoWagonOps - Containerized Deployment and Beyond in PHP & Laravel
-Welcome to MechanoWagonOps, your guide to deploying and managing applications using container orchestration tools. This comprehensive documentation covers a wide array of topics, from container basics to advanced deployment strategies and serverless architecture. 
-Let's dive into the key components and features of MechanoWagonOps.
+# MechanoWagonOps - PHP DevOps Excellence
 
-Table of Contents
-Pod Deployment
+Welcome to MechanoWagonOps, your ultimate guide for achieving DevOps excellence in PHP environments. This documentation focuses on empowering PHP developers with practical tools and strategies for seamless deployment, visualization of clusters, effective error tracking, robust pipelines, error recovery, Kubernetes integration, and embracing serverless architectures.
 
-Understand the fundamentals of deploying pods, managing configurations, secrets, and running applications like Nginx and background workers.
-Communication and Scaling
+## Table of Contents
 
-Explore effective communication between Nginx and FPM, running migrations in a cluster, caching configurations, and implementing liveness and readiness probes.
-Learn about autoscaling pods, leveraging the Metrics Server, and configuring rolling updates for seamless deployments.
-Resource Management
+1. **Pod Deployment**
+   - Dive into deploying PHP pods, managing configurations, secrets, and efficiently running applications like Nginx and background workers.
 
-Set resource requests and limits, conduct health checks on pods, and expose your application through Ingress controllers and load balancers.
-Deployment Automation
+2. **Communication and Scaling**
+   - Explore effective communication between Nginx and FPM, run migrations in a cluster, cache configurations, and implement liveness and readiness probes.
+   - Learn about autoscaling pods, leveraging the Metrics Server, and configuring rolling updates for seamless deployments.
 
-Deploy your cluster from a pipeline, manage secrets, track image versions, and streamline the deployment process using kubectl and doctl.
-Cluster Monitoring
+3. **Resource Management**
+   - Set resource requests and limits tailored to PHP applications for optimal performance.
+   - Expose your PHP applications through Ingress controllers and load balancers.
 
-Gain insights into monitoring your cluster, ensuring optimal performance and identifying potential issues early on.
-Platform-as-a-Service and Serverless Functions
+4. **Deployment Automation**
+   - Deploy your PHP cluster from a pipeline, manage secrets, track image versions, and streamline the deployment process using kubectl and doctl.
 
-Understand the architecture of a code review tool, explore webhooks and schedulers, and add serverless functions to your application.
-Dive into deploying a serverless Laravel application on AWS using the Serverless Framework.
-Docker & Docker Swarm
+5. **Cluster Visualization**
+   - Visualize your PHP clusters for a clear understanding of their architecture and performance.
 
-Explore the fundamentals of Docker and Docker Swarm, learning how to containerize applications and manage them at scale.
-Getting Started
-To get started with MechanoWagonOps, follow the instructions below:
+6. **Error Tracking and Recovery**
+   - Implement robust error tracking mechanisms and explore strategies for quick error recovery.
 
-Clone the Repository:
+7. **Kubernetes Integration (K8s)**
+   - Leverage Kubernetes to enhance the scalability, reliability, and maintainability of your PHP applications.
 
-bash
-Copy code
-git clone https://github.com/halweg/MechanoWagonOps.git
-cd MechanoWagonOps
-Explore Documentation:
+8. **Serverless Architecture**
+   - Explore the power of serverless functions within your PHP applications for enhanced flexibility and resource efficiency.
 
-Navigate to each section in the documentation folder to find detailed guides on specific topics.
-Deploy the Cluster:
+## Getting Started
 
-Follow the deployment instructions to set up your containerized environment.
-Contribute and Collaborate:
-
-MechanoWagonOps is an open-source project. Feel free to contribute and collaborate with the community.
-Contribution Guidelines
-If you wish to contribute to MechanoWagonOps, please refer to our Contribution Guidelines.
-
-License
-MechanoWagonOps is licensed under the MIT License.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/MechanoWagonOps.git
+   cd MechanoWagonOps
